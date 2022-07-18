@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Nav from "../components/Nav.jsx"
+import { useState } from 'react';
 
 export default function Home() {
 
-  function printHello() {
-    console.log("Hello there! Jacob is soooooo much cooler than me.")
-  }
+  const [newGreeting, setNewGreeting] = useState('');
 
-  function printGoodbye() {
-    console.log("Goodbye.")
+  function runTransaction() {
+    console.log(newGreeting)
   }
 
   return (
@@ -19,6 +19,8 @@ export default function Home() {
         <link rel="icon" href="https://i.imgur.com/hvNtbgD.png" />
       </Head>
 
+      <Nav />
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to my <a href="https://www.google.co.jp/" target="_blank">Emerald DApp!</a>
@@ -27,8 +29,8 @@ export default function Home() {
           created by hiro
         </p>
         <div className={styles.flex}>
-          <button onClick={printHello}>Hello</button>
-          <button onClick={printGoodbye}>Goodbye</button>
+          <button onClick={runTransaction}>Run Transaction</button>
+          <input onChange={(e) => setNewGreeting(e.target.value)} placeholder="Hello, Idiots!" />
         </div>
       </main>
     </div>
