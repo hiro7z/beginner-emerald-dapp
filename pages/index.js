@@ -2,6 +2,15 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  function printHello() {
+    console.log("Hello there! Jacob is soooooo much cooler than me.")
+  }
+
+  function printGoodbye() {
+    console.log("Goodbye.")
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -17,6 +26,10 @@ export default function Home() {
         <p>
           created by hiro
         </p>
+        <div className={styles.flex}>
+          <button onClick={printHello}>Hello</button>
+          <button onClick={printGoodbye}>Goodbye</button>
+        </div>
       </main>
     </div>
   )
