@@ -6,6 +6,6 @@
 ##### 4b. Go to the .main class and add this line: flex-direction: column. Watch what it does!
 
 
-![day2-1](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/day2-1.PNG)
-![day2-2](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/day2-2.PNG)
-![day2-3](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/day2-3.PNG)
+![day2-1](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/images/day2-1.PNG)
+![day2-2](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/images/day2-2.PNG)
+![day2-3](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/images/day2-3.PNG)

@@ -20,8 +20,8 @@
 
 #### 3. Take a screenshot of the running application and upload it to your quest submissions.
 
-![day1-3-1](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/day1-3-1.PNG)
-![day1-3-2](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/day1-3-2.PNG)
+![day1-3-1](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/images/day1-3-1.PNG)
+![day1-3-2](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter2.0/images/day1-3-2.PNG)
 
 
 #### 4. Upload the link to your public GitHub repository.
