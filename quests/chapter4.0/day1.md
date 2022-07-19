@@ -3,10 +3,10 @@
 When the user presses the "Log In" button, the handleAuthentication function is called.
 Since the user is not logged in, fcl.authenticate() is called to log in and obtain the address.
 
-press "Log In" button and call handleAuthentication()
+press "Log In" button and call handleAuthentication()<br>
 ![day1-1-1](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter4.0/images/day1-1-1.PNG)
 
-loggedIn is false and call fcl.authenticate()
+loggedIn is false and call fcl.authenticate()<br>
 ![day1-1-2](https://github.com/hiro7z/beginner-emerald-dapp/blob/main/quests/chapter4.0/images/day1-1-2.PNG)
 
 
